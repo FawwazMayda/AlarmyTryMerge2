@@ -19,11 +19,22 @@
 		4D45E43F243C7A6600637259 /* AlarmStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45E43E243C7A6600637259 /* AlarmStoryBoard.storyboard */; };
 		4D45E442243C7CCF00637259 /* FirstSoundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E441243C7CCF00637259 /* FirstSoundVC.swift */; };
 		4D45E444243C7CE600637259 /* SecondSoundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E443243C7CE600637259 /* SecondSoundVC.swift */; };
-		4D45E446243C7CFD00637259 /* FirstMeditationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E445243C7CFD00637259 /* FirstMeditationVC.swift */; };
-		4D45E448243C7D1100637259 /* SecondMeditationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E447243C7D1100637259 /* SecondMeditationVC.swift */; };
+		4D45E448243C7D1100637259 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E447243C7D1100637259 /* DetailVC.swift */; };
 		4D45E44A243C7D1D00637259 /* FirstAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E449243C7D1D00637259 /* FirstAlarmVC.swift */; };
 		4D45E44C243C7D2900637259 /* SecondAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E44B243C7D2900637259 /* SecondAlarmVC.swift */; };
 		4D45E44E243C7D3500637259 /* ThirdAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E44D243C7D3500637259 /* ThirdAlarmVC.swift */; };
+		A5DA7E9624425382005DB919 /* Blue-Lagoon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5DA7E9524425382005DB919 /* Blue-Lagoon.m4a */; };
+		A5DA7EA024425458005DB919 /* Falling-Asleep.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5DA7E9724425453005DB919 /* Falling-Asleep.m4a */; };
+		A5DA7EA124425458005DB919 /* Pain-Management.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5DA7E9824425453005DB919 /* Pain-Management.m4a */; };
+		A5DA7EA224425458005DB919 /* Island-Paradise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5DA7E9924425454005DB919 /* Island-Paradise.m4a */; };
+		A5DA7EA324425458005DB919 /* Desert-Oasis.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5DA7E9A24425454005DB919 /* Desert-Oasis.m4a */; };
+		A5DA7EA424425458005DB919 /* Mountain-Refuge.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5DA7E9B24425455005DB919 /* Mountain-Refuge.m4a */; };
+		A5DA7EA524425458005DB919 /* Deep-Ocean.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5DA7E9C24425456005DB919 /* Deep-Ocean.m4a */; };
+		A5DA7EA624425458005DB919 /* Fantasy-Island.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5DA7E9D24425457005DB919 /* Fantasy-Island.m4a */; };
+		A5DA7EA724425458005DB919 /* Country-Meadow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5DA7E9E24425457005DB919 /* Country-Meadow.m4a */; };
+		A5DA7EA824425458005DB919 /* Tropical-Sands.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5DA7E9F24425458005DB919 /* Tropical-Sands.m4a */; };
+		A5FCBF1324414154005A4C31 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FCBF1224414154005A4C31 /* MainVC.swift */; };
+		A5FCBF1524414244005A4C31 /* DesignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FCBF1424414244005A4C31 /* DesignTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,11 +52,22 @@
 		4D45E43E243C7A6600637259 /* AlarmStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlarmStoryBoard.storyboard; sourceTree = "<group>"; };
 		4D45E441243C7CCF00637259 /* FirstSoundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSoundVC.swift; sourceTree = "<group>"; };
 		4D45E443243C7CE600637259 /* SecondSoundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSoundVC.swift; sourceTree = "<group>"; };
-		4D45E445243C7CFD00637259 /* FirstMeditationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMeditationVC.swift; sourceTree = "<group>"; };
-		4D45E447243C7D1100637259 /* SecondMeditationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMeditationVC.swift; sourceTree = "<group>"; };
+		4D45E447243C7D1100637259 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		4D45E449243C7D1D00637259 /* FirstAlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAlarmVC.swift; sourceTree = "<group>"; };
 		4D45E44B243C7D2900637259 /* SecondAlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAlarmVC.swift; sourceTree = "<group>"; };
 		4D45E44D243C7D3500637259 /* ThirdAlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdAlarmVC.swift; sourceTree = "<group>"; };
+		A5DA7E9524425382005DB919 /* Blue-Lagoon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blue-Lagoon.m4a"; sourceTree = "<group>"; };
+		A5DA7E9724425453005DB919 /* Falling-Asleep.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Falling-Asleep.m4a"; sourceTree = "<group>"; };
+		A5DA7E9824425453005DB919 /* Pain-Management.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pain-Management.m4a"; sourceTree = "<group>"; };
+		A5DA7E9924425454005DB919 /* Island-Paradise.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Island-Paradise.m4a"; sourceTree = "<group>"; };
+		A5DA7E9A24425454005DB919 /* Desert-Oasis.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Desert-Oasis.m4a"; sourceTree = "<group>"; };
+		A5DA7E9B24425455005DB919 /* Mountain-Refuge.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mountain-Refuge.m4a"; sourceTree = "<group>"; };
+		A5DA7E9C24425456005DB919 /* Deep-Ocean.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Deep-Ocean.m4a"; sourceTree = "<group>"; };
+		A5DA7E9D24425457005DB919 /* Fantasy-Island.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fantasy-Island.m4a"; sourceTree = "<group>"; };
+		A5DA7E9E24425457005DB919 /* Country-Meadow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Country-Meadow.m4a"; sourceTree = "<group>"; };
+		A5DA7E9F24425458005DB919 /* Tropical-Sands.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tropical-Sands.m4a"; sourceTree = "<group>"; };
+		A5FCBF1224414154005A4C31 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A5FCBF1424414244005A4C31 /* DesignTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +146,10 @@
 		4D45E450243C7D4200637259 /* Meditation */ = {
 			isa = PBXGroup;
 			children = (
-				4D45E445243C7CFD00637259 /* FirstMeditationVC.swift */,
-				4D45E447243C7D1100637259 /* SecondMeditationVC.swift */,
+				A5FCBF1224414154005A4C31 /* MainVC.swift */,
+				4D45E447243C7D1100637259 /* DetailVC.swift */,
+				A5FCBF1424414244005A4C31 /* DesignTableViewCell.swift */,
+				A5FCBF16244143DB005A4C31 /* Audios */,
 			);
 			path = Meditation;
 			sourceTree = "<group>";
@@ -138,6 +162,23 @@
 				4D45E44D243C7D3500637259 /* ThirdAlarmVC.swift */,
 			);
 			path = Alarm;
+			sourceTree = "<group>";
+		};
+		A5FCBF16244143DB005A4C31 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				A5DA7E9E24425457005DB919 /* Country-Meadow.m4a */,
+				A5DA7E9C24425456005DB919 /* Deep-Ocean.m4a */,
+				A5DA7E9A24425454005DB919 /* Desert-Oasis.m4a */,
+				A5DA7E9724425453005DB919 /* Falling-Asleep.m4a */,
+				A5DA7E9D24425457005DB919 /* Fantasy-Island.m4a */,
+				A5DA7E9924425454005DB919 /* Island-Paradise.m4a */,
+				A5DA7E9B24425455005DB919 /* Mountain-Refuge.m4a */,
+				A5DA7E9824425453005DB919 /* Pain-Management.m4a */,
+				A5DA7E9F24425458005DB919 /* Tropical-Sands.m4a */,
+				A5DA7E9524425382005DB919 /* Blue-Lagoon.m4a */,
+			);
+			path = Audios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +245,16 @@
 				4D45E42C243C754400637259 /* Main.storyboard in Resources */,
 				4D45E43B243C782300637259 /* SoundStoryBoard.storyboard in Resources */,
 				4D45E43F243C7A6600637259 /* AlarmStoryBoard.storyboard in Resources */,
+				A5DA7EA824425458005DB919 /* Tropical-Sands.m4a in Resources */,
+				A5DA7EA324425458005DB919 /* Desert-Oasis.m4a in Resources */,
+				A5DA7EA524425458005DB919 /* Deep-Ocean.m4a in Resources */,
+				A5DA7EA724425458005DB919 /* Country-Meadow.m4a in Resources */,
+				A5DA7EA024425458005DB919 /* Falling-Asleep.m4a in Resources */,
+				A5DA7EA124425458005DB919 /* Pain-Management.m4a in Resources */,
+				A5DA7EA624425458005DB919 /* Fantasy-Island.m4a in Resources */,
+				A5DA7EA424425458005DB919 /* Mountain-Refuge.m4a in Resources */,
+				A5DA7EA224425458005DB919 /* Island-Paradise.m4a in Resources */,
+				A5DA7E9624425382005DB919 /* Blue-Lagoon.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,14 +266,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D45E429243C754400637259 /* SecondViewController.swift in Sources */,
+				A5FCBF1524414244005A4C31 /* DesignTableViewCell.swift in Sources */,
 				4D45E442243C7CCF00637259 /* FirstSoundVC.swift in Sources */,
 				4D45E427243C754400637259 /* FirstViewController.swift in Sources */,
-				4D45E446243C7CFD00637259 /* FirstMeditationVC.swift in Sources */,
+				A5FCBF1324414154005A4C31 /* MainVC.swift in Sources */,
 				4D45E44C243C7D2900637259 /* SecondAlarmVC.swift in Sources */,
 				4D45E423243C754400637259 /* AppDelegate.swift in Sources */,
 				4D45E444243C7CE600637259 /* SecondSoundVC.swift in Sources */,
 				4D45E44E243C7D3500637259 /* ThirdAlarmVC.swift in Sources */,
-				4D45E448243C7D1100637259 /* SecondMeditationVC.swift in Sources */,
+				4D45E448243C7D1100637259 /* DetailVC.swift in Sources */,
 				4D45E425243C754400637259 /* SceneDelegate.swift in Sources */,
 				4D45E44A243C7D1D00637259 /* FirstAlarmVC.swift in Sources */,
 			);
@@ -371,6 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z35HSPF5XB;
 				INFOPLIST_FILE = Alarmy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z35HSPF5XB;
 				INFOPLIST_FILE = Alarmy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
