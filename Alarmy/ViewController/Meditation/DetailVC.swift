@@ -6,16 +6,21 @@ import UIKit
 import AVFoundation
 
 class DetailVC: UIViewController {
-    @IBOutlet weak var titleLbl: UILabel!
+        @IBOutlet weak var titleLbl: UILabel!
         @IBOutlet weak var durationLbl: UILabel!
         @IBOutlet weak var imageView: UIImageView!
         @IBOutlet weak var currentTimeLbl: UILabel!
         @IBOutlet weak var remainingTimeLbl: UILabel!
         @IBOutlet weak var audioSlider: UISlider!
-        
+        @IBOutlet var playPauseBtn: UIButton!
+    
+
+        let playImage = UIImage(named: "play")
+        let pauseImage = UIImage(named: "pause")
         var audioPlayer: AVAudioPlayer!
         var dataMainVC: MainItem?
         var timer:Timer!
+    
         override func viewDidLoad() {
             super.viewDidLoad()
             if let checked = dataMainVC {
@@ -37,7 +42,9 @@ class DetailVC: UIViewController {
             } else {
                 print("error")
             }
-
+            
+            playPauseBtn.setImage(playImage, for: .normal)
+            setStatusBar()
             imageView.layer.cornerRadius = 10
             audioSlider.maximumValue = Float(audioPlayer.duration)
 
@@ -53,9 +60,11 @@ class DetailVC: UIViewController {
         @IBAction func playButtonPressed(_ sender: UIButton) {
             if audioPlayer.isPlaying {
                 audioPlayer.stop()
+                playPauseBtn.setImage(playImage, for: .normal)
             }
             else{
                 audioPlayer.play()
+                playPauseBtn.setImage(pauseImage, for: .normal)
             }
             
             timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
@@ -66,6 +75,8 @@ class DetailVC: UIViewController {
             audioPlayer.stop()
             audioPlayer.currentTime = TimeInterval(audioSlider.value)
             updateTime()
+            
+            playPauseBtn.setImage(playImage, for: .normal)
         }
         
         @objc func updateSlider(){
@@ -106,4 +117,12 @@ class DetailVC: UIViewController {
                 audioPlayer.stop()
             }
         }
+    
+    func setStatusBar(){
+        let imageForThumb = UIImage(named: "img_circle.png")
+        audioSlider.setThumbImage(imageForThumb, for: .normal)
+        audioSlider.minimumTrackTintColor = UIColor.orange
+        audioSlider.maximumTrackTintColor = UIColor.gray
+        audioSlider.maximumValue = Float(audioPlayer.duration)
+    }
 }

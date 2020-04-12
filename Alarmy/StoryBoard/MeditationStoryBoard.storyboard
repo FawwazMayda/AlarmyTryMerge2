@@ -104,7 +104,7 @@
                                     <action selector="audioSlider:" destination="W9o-Mf-cux" eventType="valueChanged" id="81u-U1-EN5"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SO-e3-BMw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SO-e3-BMw">
                                 <rect key="frame" x="20" y="143" width="374" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
@@ -125,7 +125,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kL8-VN-AK4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kL8-VN-AK4">
                                 <rect key="frame" x="147" y="195" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -142,6 +142,7 @@
                         <outlet property="currentTimeLbl" destination="Z80-QA-tHe" id="WcL-XV-Ggu"/>
                         <outlet property="durationLbl" destination="kL8-VN-AK4" id="rjB-M6-Yx6"/>
                         <outlet property="imageView" destination="5lH-u8-eAn" id="WRy-Me-zJa"/>
+                        <outlet property="playPauseBtn" destination="Slw-Ef-PdK" id="5c6-b2-Z5y"/>
                         <outlet property="remainingTimeLbl" destination="APW-5o-Fun" id="HQI-Yh-Jm7"/>
                         <outlet property="titleLbl" destination="4SO-e3-BMw" id="b3Z-5g-JbL"/>
                     </connections>
