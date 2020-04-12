@@ -54,7 +54,7 @@
         <scene sceneID="QZc-io-3Ao">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yse-jS-X5Y" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Sounds" image="music.note" catalog="system" id="BhC-6o-7zm"/>
+                    <tabBarItem key="tabBarItem" title="Sounds" image="sounds" id="BhC-6o-7zm"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vTj-8v-NVG">
@@ -72,6 +72,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="music.note" catalog="system" width="97" height="128"/>
+        <image name="sounds" width="64" height="64"/>
     </resources>
 </document>
